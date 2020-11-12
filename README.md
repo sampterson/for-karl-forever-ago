@@ -1,2 +1,2 @@
 # for-karl-forever-ago
-Simple Site for my friend Karl
+Simple Site for my friend Karl.
