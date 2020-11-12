@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% block title %}<title>Karl Haynus, PLLC</title>{% endblock %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+    <!-- Add additional CSS in static file -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  </head>
+  <body>
+    <div class="w3-container">
+      {% block navbar %}
+        <div class="w3-bar w3-black">
+          <!-- TODO: Update these links -->
+          <a href="{% url 'index' %}" class="w3-bar-item w3-button">Home</a>
+          <a href="{% url 'index' %}" class="w3-bar-item w3-button">Contact</a>
+          <a href="{% url 'index' %}" class="w3-bar-item w3-button">Cases</a>
+          <a href="{% url 'index' %}" class="w3-bar-item w3-button">Trust</a>
+        </div>
+      {% endblock %}
+      <div class="col-sm-12">{% block content %}{% endblock %}</div>
+    </div>
+  </body>
+  <footer>
+    <!-- TODO: Could add a fancy fake official footer -->
+    <br>
+    <br>
+  </footer> 
+</html>
+
+<style>
+  .w3-container
+  {
+    max-width: 1200px;
+    margin: auto;
+  }
+  body, h1, h2, h3 {
+    font-family: "Playfair+Display";
+    font-size: 22px;
+    background-color: #192451;
+    color: white
+  }
+  hr {
+    background-color: #f2be69
+  }
+
+</style>
