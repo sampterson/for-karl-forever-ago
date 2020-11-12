@@ -1,1 +1,1 @@
-web: gunicorn KingsCupCounter.wsgi --log-file -
+web: gunicorn karlhaynuspllc.wsgi --log-file -
