@@ -1,1 +1,1 @@
-pip install gunicorn
+web: gunicorn karlhaynuspllc:karlhaynuspllc.wsgi --log-file -
