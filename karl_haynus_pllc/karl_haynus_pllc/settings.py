@@ -25,7 +25,7 @@ SECRET_KEY = 'ld(8&&zg^!gyn3d(+uno$bljsegiy!ri(uj#1)#irpx%2(j9^u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['karl-haynus-law.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['karl-haynus-pllc.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
