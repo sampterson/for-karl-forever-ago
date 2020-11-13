@@ -1,0 +1,1 @@
+web: gunicorn karl_haynus_pllc.wsgi --log-file -
