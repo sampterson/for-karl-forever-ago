@@ -1,1 +1,1 @@
-web: gunicorn karlhaynuspllc:karlhaynuspllc.wsgi --log-file -
+web: gunicorn karlhaynuspllc.wsgi:application --log-file -
